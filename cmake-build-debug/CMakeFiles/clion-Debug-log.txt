@@ -1,0 +1,51 @@
+"E:\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2023.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S "E:\阿秀的学习笔记  第5版\CS144\TCP_implement" -B "E:\阿秀的学习笔记  第5版\CS144\TCP_implement\cmake-build-debug"
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/CLion 2023.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/CLion 2023.3/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building in Debug mode as requested.
+--   NOTE: You can choose a build type by calling cmake with one of:
+--     -DCMAKE_BUILD_TYPE=Release   -- full optimizations
+--     -DCMAKE_BUILD_TYPE=Debug     -- better debugging experience in gdb
+--     -DCMAKE_BUILD_TYPE=RelASan   -- full optimizations plus address and undefined-behavior sanitizers
+--     -DCMAKE_BUILD_TYPE=DebugASan -- debug plus sanitizers
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done (6.4s)
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+LIBPCAP
+    linked by target "udp_tcpdump" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "tcp_parser" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/tests
+    linked by target "tcp_parser" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/tests
+    linked by target "ipv4_parser" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/tests
+    linked by target "ipv4_parser" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/tests
+LIBPTHREAD
+    linked by target "webget" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "tcp_native" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "udp_tcpdump" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "tcp_benchmark" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "tcp_udp" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "tun" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "tcp_ipv4" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/apps
+    linked by target "address_dt" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/doctests
+    linked by target "parser_dt" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/doctests
+    linked by target "socket_dt" in directory E:/阿秀的学习笔记  第5版/CS144/TCP_implement/doctests
+
+-- Generating done (0.3s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.
